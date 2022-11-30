@@ -1,0 +1,17 @@
+CREATE TABLE store (id integer primary key, item text, cost integer, size text, color text);
+INSERT into store VALUES 
+(1, "blouse", 20, "sml", "blue"),
+(2, "slacks", 40, "sml", "black"),
+(3, "blazer", 40, "sml", "beige"),
+(4, "caridgan", 25, "sml", "blue"),
+(5, "cami", 10, "sml", "off-white"),
+(6, "jeans", 60, "sml", "light-wash"),
+(7, "shorts", 35, "sml", "navy"),
+(8, "jacket", 40, "sml", "black"),
+(9, "scarf", 18, "sml", "multi-color"), 
+(10, "sportsbra", 30, "sml", "red"),
+(11, "leggings", 25, "sml", "black"),
+(12, "yogajacket", 50, "sml", "white"),
+(13, "socks", 10, "onesize", "white"),
+(14, "skirt", 25, "sml", "green"),
+(15, "sweater", 35, "sml", "black");
